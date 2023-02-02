@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8FAFC;
+}
+
+.vti__dropdown{
+    padding: 0;
+}
+
+.vue-tel-input{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.vue-tel-input:focus-within{
+    box-shadow: none;
+    border-color: #ccc;
+    outline: solid;
+    outline-color: #674188;
+    outline-width: 2px;
+}
